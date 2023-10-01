@@ -1,6 +1,4 @@
-import defaultCharacter from './domain.js';
-
-export { Game, GameSavingData, readGameSaving, writeGameSaving };
+import defaultCharacter from './domain.js';  
 
 class Game {
     start() {
@@ -17,3 +15,4 @@ class Game {
   function writeGameSaving() {
 };
 
+export { Game, GameSavingData, readGameSaving, writeGameSaving };
